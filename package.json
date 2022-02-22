@@ -1,0 +1,18 @@
+{
+  "name": "ptero-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord-html-transcripts": "^1.2.3",
+    "discord.js": "^13.6.0",
+    "glob": "^7.2.0",
+    "mongoose": "^6.2.1",
+    "request": "^2.88.2"
+  }
+}
