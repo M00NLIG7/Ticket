@@ -1,7 +1,7 @@
 {
-  "token": "",
+  "token": "OTA0OTgxMjg1MTY3MDU5MDA1.YYDbgA.eNtZ3uUq_EhFE1LqaVeA_2iK3Vc",
   "prefix": "!",
-  "mongooseConnectionString": "",
+  "mongooseConnectionString": "mongodb+srv://M00NL1G7:vRoEu48SysspHZ6f@botmaker.y4oli.mongodb.net/Dog_Park",
   "ParentID": "904946009963106304",
   "EveryoneID": "903743840014434365"
 }

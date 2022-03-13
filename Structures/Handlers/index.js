@@ -49,3 +49,18 @@ module.exports = async (client) => {
     .connect(mongooseConnectionString)
     .then(() => console.log('Connected to mongodb'));
 };
+
+async function role(action, msg, user, role) {
+  try {
+    const member = await msg.guild.members.fetch(user.id);
+    if (action === 'remove') {
+      let type = await msg.guild.roles.cache.get(role);
+      await member.roles.remove(type);
+    } else if (action === 'add') {
+      let type = await msg.guild.roles.cache.get(role);
+      await member.roles.add(type);
+    }
+  } catch (err) {
+    console.log(err);
+  }
+}
